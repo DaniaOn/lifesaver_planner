@@ -6,6 +6,9 @@
 var currentDay = $ ("#currentDay");
 currentDay.text(moment().format('MM,DD,YYYY'));
 
+//showing the current hour
+var currenthour = moment().hour();
+
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
