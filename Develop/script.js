@@ -4,7 +4,7 @@
 
 //showing the current day
 var currentDay = $ ("#currentDay");
-currentDay.text(moment().format('MM,DD,YYYY'));
+currentDay.text (moment().format("MM/DD/YYYY"));
 
 //showing the current hour
 var currenthour = moment().hour();
@@ -23,3 +23,10 @@ $(".time-block").each(function(){
     $(this).find("description").addClass("future");
   }
 });
+
+//Locastorage botton
+$(".saveBtn").on("click",function(){
+var key = $(this).parent().atrr("id").split("-")[1];
+var text = $(this).parent().find(".description").val();
+localStorage.setItem(key,text);
+})
