@@ -12,7 +12,7 @@ It's an page that has a a very usefull interaction for tracking your day.
 ![Page view](//Assets/Screenshot%202023-03-23%20205319.png)
 
 # Link to Deployed Application
-https://daniaon.github.io/JavaScript-Quiz/
+https://daniaon.github.io/lifesaver_planner/
 
 ## License
 
